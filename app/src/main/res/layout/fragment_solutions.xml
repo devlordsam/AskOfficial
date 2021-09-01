@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="20dp"
+    tools:context=".view.fragments.SolutionsFragment">
+
+
+    <TextView
+        android:id="@+id/tv_solutions_hardware"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:text="@string/hardware_solutions"
+        android:textSize="24sp"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_solutions_desktop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/colorSecondaryDark"
+        android:padding="8dp"
+        android:text="@string/desktop_solutions"
+        android:textSize="16sp"
+        app:layout_constraintTop_toBottomOf="@id/tv_solutions_hardware"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btn_solutions_mobile_phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/colorSecondaryDark"
+        android:text="@string/mobile_phone_solutions"
+        android:textSize="16sp"
+        android:padding="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_solutions_desktop"/>
+
+    <Button
+        android:id="@+id/btn_solutions_other_hardware"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/colorSecondaryDark"
+        android:text="@string/other_hardware_solutions"
+        android:textSize="16sp"
+        android:padding="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_solutions_mobile_phone"/>
+
+    <TextView
+        android:id="@+id/tv_solutions_software"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:text="@string/software_solutions"
+        android:textSize="24sp"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_solutions_other_hardware" />
+
+    <Button
+        android:id="@+id/btn_solutions_desktop_software"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/colorSecondaryDark"
+        android:padding="8dp"
+        android:text="@string/desktop_software_solutions"
+        android:textSize="16sp"
+        app:layout_constraintTop_toBottomOf="@id/tv_solutions_software"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btn_solutions_mobile_phone_software"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/colorSecondaryDark"
+        android:text="@string/mobile_phone_software_solutions"
+        android:textSize="16sp"
+        android:padding="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_solutions_desktop_software"/>
+
+    <Button
+        android:id="@+id/btn_solutions_other_software"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/colorSecondaryDark"
+        android:text="@string/other_software_solutions"
+        android:textSize="16sp"
+        android:padding="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_solutions_mobile_phone_software"/>
+
+    <TextView
+        android:id="@+id/tv_solutions_technical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:text="@string/technical_solutions"
+        android:textSize="24sp"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_solutions_other_software" />
+
+    <Button
+        android:id="@+id/btn_solutions_technical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/colorSecondaryDark"
+        android:padding="8dp"
+        android:text="@string/other_technical_support"
+        android:textSize="16sp"
+        app:layout_constraintTop_toBottomOf="@id/tv_solutions_technical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
