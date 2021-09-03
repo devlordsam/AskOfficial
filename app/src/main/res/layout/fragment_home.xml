@@ -22,7 +22,7 @@
         android:layout_marginBottom="20dp"
         android:contentDescription="@string/boy_image"
         android:scaleX="0.9"
-        android:scaleY="0.85"
+        android:scaleY="0.8"
         android:src="@drawable/boy"
         app:layout_constraintBottom_toBottomOf="@id/cl_home_categories"
         app:layout_constraintEnd_toEndOf="parent"

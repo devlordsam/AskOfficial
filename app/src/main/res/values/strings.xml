@@ -69,4 +69,9 @@
     <string name="no_orders">No orders!</string>
     <string name="title_settings">Settings</string>
     <string name="title_edit_profile">Edit Profile</string>
+    <string name="full_name">Full Name</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="other">Other</string>
+    <string name="save">Save</string>
 </resources>
